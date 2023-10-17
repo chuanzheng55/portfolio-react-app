@@ -67,8 +67,8 @@ const Skills = () => {
               <div className='m-auto'>
                 <img src={Javascript} width='64px' height='64px' alt='/' />
               </div>
-              <div className='flex flex-col items-center justify-center'>
-                <h3>JavaScript</h3>
+              <div className='flex flex-col items-right justify-center'>
+                <h3>Java Script</h3>
               </div>
             </div>
           </div>

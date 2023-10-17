@@ -61,9 +61,16 @@ const Navbar = () => {
                 <FaGithub/>
               </div>
             </a>
+
+            <a
+              href='https://www.instagram.com/armletz_/'
+              target='_blank'
+              rel='noreferrer'
+            >
               <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                 <FaInstagram/>
               </div>
+            </a>
 
             </div>
 
