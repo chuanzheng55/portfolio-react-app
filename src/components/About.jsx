@@ -31,8 +31,10 @@ const About = () => {
                 </div>
                 <div>
                     <p>
-                    computer programmer, sometimes referred to as a software developer, a software engineer, a programmer or a coder, is a person who creates computer programs.
-                    </p>
+                    Hey there! I'm a fresh grad in software development, and I'm all about creating software that's slick, efficient, and user-friendly. 
+                    During my studies, I got hands-on with real projects, which amped up my excitement to make stuff that genuinely helps people in their daily lives. 
+                    Teamwork is my jam—I love bouncing ideas off others and working together to make awesome things happen. Always up for learning something new, I'm stoked to keep up with the ever-changing tech scene and bring my enthusiasm and skills to the table. 
+                    Let's dive into this exciting world of software development and make some cool stuff! 🚀 </p>
                 </div>
             </div>
 

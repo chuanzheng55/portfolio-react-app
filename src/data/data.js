@@ -31,7 +31,7 @@ export const data=[
         id:4,
         name:"Portfolio ReactJS",
         image:Portfolio,
-        github:"",
+        github:"https://github.com/chuanzheng55/portfolio-react-app",
         live:"",
     },
     {
@@ -43,10 +43,11 @@ export const data=[
     },
     {
         id:6,
-        name:"React JS Application",
-        image:"",
-        github:"",
+        name:"React (to be continue)",
+        image:"To be continue",
+        github:null,
         live:"",
+        
     },
 
 
