@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/portfolio-react-app/static/css/main.5dcb0b7b.css",
-    "main.js": "/portfolio-react-app/static/js/main.e61724f6.js",
+    "main.css": "/portfolio-react-app/static/css/main.e2c60cac.css",
+    "main.js": "/portfolio-react-app/static/js/main.0b1cc672.js",
     "static/media/poster.png": "/portfolio-react-app/static/media/poster.1427d8a5df69ae58bd04.png",
     "static/media/Flask.png": "/portfolio-react-app/static/media/Flask.1dfb0a77f9428d1882eb.png",
     "static/media/squareGame.PNG": "/portfolio-react-app/static/media/squareGame.aed9b0b2363da5f33a1d.PNG",
+    "static/media/ozzy.JPG": "/portfolio-react-app/static/media/ozzy.bef35e04e029d3252d36.JPG",
     "static/media/mutithreads.png": "/portfolio-react-app/static/media/mutithreads.8407a4363b9a7cbea66e.png",
     "static/media/docker.png": "/portfolio-react-app/static/media/docker.1711877294e179fe23c2.png",
     "static/media/c++.png": "/portfolio-react-app/static/media/c++.e63f0afcad8fffad4dd7.png",
@@ -23,11 +24,11 @@
     "static/media/git.png": "/portfolio-react-app/static/media/git.7d664489ed331806ddc8.png",
     "static/media/Java.png": "/portfolio-react-app/static/media/Java.6c64373d3b7415758078.png",
     "index.html": "/portfolio-react-app/index.html",
-    "main.5dcb0b7b.css.map": "/portfolio-react-app/static/css/main.5dcb0b7b.css.map",
-    "main.e61724f6.js.map": "/portfolio-react-app/static/js/main.e61724f6.js.map"
+    "main.e2c60cac.css.map": "/portfolio-react-app/static/css/main.e2c60cac.css.map",
+    "main.0b1cc672.js.map": "/portfolio-react-app/static/js/main.0b1cc672.js.map"
   },
   "entrypoints": [
-    "static/css/main.5dcb0b7b.css",
-    "static/js/main.e61724f6.js"
+    "static/css/main.e2c60cac.css",
+    "static/js/main.0b1cc672.js"
   ]
 }
