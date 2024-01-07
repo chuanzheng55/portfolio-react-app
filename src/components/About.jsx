@@ -1,47 +1,44 @@
-import React from 'react'
-import {motion} from "framer-motion"
+import React from 'react';
+import { motion } from 'framer-motion';
+import { InView } from 'react-intersection-observer';
+import ozzy from '../assets/ozzy.JPG';
 
 const About = () => {
+    const textVariants = {
+        hidden: { opacity: 0, x: -100 },
+        visible: { opacity: 1, x: 0, transition: { duration: 1 } },
+    };
 
-    const [move,setMove] =React.useState(false);
-
-  return (
-    <div name='about' className='w-full h-screen bg-[#dfdfdf]'>
-        <div className='flex flex-col justify-center items-center w-full h-full'>
-            <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8 '>
-                <div className='sm:text-left pb-8 pl-4'>
-                    <motion.div  
-                        animate={{x: move ? 200 : -200 }}
-                        transition={{type:"tween", duration:3}}
-                        onClick={()=>{
-                            setMove(!move)
-                            
-                        }}
+    return (
+        <div id='about' className='w-full h-screen flex items-center justify-center bg-gradient-to-r from-[#c0d6db] to-[#31a3a7]'>
+            <InView threshold={0.5}>
+                {({ inView, ref }) => (
+                    <motion.div 
+                        ref={ref}
+                        className='container mx-auto p-4 flex flex-col md:flex-row items-center justify-between'
+                        initial="hidden"
+                        animate={inView ? "visible" : "hidden"}
+                        variants={textVariants}
                     >
-
-                    
-                    <p className='font-bold text-4xl inline border-b-4 border-[#a8136f]'>About</p> </motion.div>
-                </div>
-                <div></div>
-                </div>
-            <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
-                <div className='sm:text-right text-4xl font-bold'>
-                    <p>Hi. I'm Chuan, nice to meet you. </p>
-                    
-                </div>
-                <div>
-                    <p>
-                    Hey there! I'm a fresh grad in software development, and I'm all about creating software that's slick, efficient, and user-friendly. 
-                    During my studies, I got hands-on with real projects, which amped up my excitement to make stuff that genuinely helps people in their daily lives. 
-                    Teamwork is my jam—I love bouncing ideas off others and working together to make awesome things happen. Always up for learning something new, I'm stoked to keep up with the ever-changing tech scene and bring my enthusiasm and skills to the table. 
-                    Let's dive into this exciting world of software development and make some cool stuff! 🚀 </p>
-                </div>
-            </div>
-
+                        <img 
+                            src={ozzy} 
+                            alt='ozzy'
+                            className='w-80 h-80 rounded-full shadow-lg mb-8 md:mb-0'
+                        />
+                        <div className='text-center md:text-left md:max-w-md lg:max-w-lg'>
+                            <h1 className='text-5xl font-bold text-[#333] mb-3'>
+                                About Me
+                            </h1>
+                            <p className='text-lg'>
+                                I'm Chuan Zheng, a recent graduate in software development, driven by the passion to create innovative and accessible software solutions. My academic and project experiences have honed my skills in teamwork, problem-solving, and adaptability. I'm eager to continue my journey in technology, constantly learning and contributing to impactful projects. Let's collaborate and create something amazing! 🚀
+                            </p>
+                        </div>
+                    </motion.div>
+                )}
+            </InView>
         </div>
-      
-    </div>
-  )
+        
+    );
 }
 
-export default About
+export default About;
