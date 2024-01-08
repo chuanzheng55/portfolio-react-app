@@ -25,9 +25,8 @@ const Home = () => {
           speed={70}
           repeat={Infinity}
         />
-        <p className='py-4 text-lg text-gray-200 sm:max-w-[70%] mx-auto'>
-          Ambitious student seeking entry-level software engineering roles. Skilled in problem-solving and proficient in multiple programming languages.
-        </p>
+        <p className='py-4 text-lg text-gray-200 sm:max-w-[70%] mx-auto'>Recent graduate with a strong passion for software development and a knack for learning new technologies, 
+seeking an entry-level position to apply and expand my coding skills in a team-oriented environment.</p>
         <div className='flex items-center justify-center gap-6 pt-4'>
           <a
             href='https://www.linkedin.com/in/chuanzheng9755/'
