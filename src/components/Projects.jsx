@@ -23,11 +23,11 @@ const Project = () => {
               style={{ backgroundImage: `url(${item.image})`, backgroundPosition: 'center', backgroundSize: 'cover', height: '200px' }}
             >
               <div className="opacity-0 group-hover:opacity-100 bg-[#ebeaeac3] w-full h-full flex flex-col justify-center items-center rounded-lg transition-opacity duration-300 ease-in-out">
-                <span className="text-2xl font-bold text-[#d85454] mb-4">
+                <span className="text-2xl font-bold text-[#252457] mb-4">
                   {item.name}
                 </span>
                 <a href={item.github} target="_blank" rel="noopener noreferrer">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-[#040c16] font-bold">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#425874] text-white font-bold hover:opacity-90">
                     Source
                   </button>
                 </a>

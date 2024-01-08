@@ -15,7 +15,7 @@ const About = () => {
                 {({ inView, ref }) => (
                     <motion.div 
                         ref={ref}
-                        className='container mx-auto p-4 flex flex-col md:flex-row items-center justify-between'
+                        className='container mx-auto p-4 flex flex-col md:flex-row items-center justify-center'
                         initial="hidden"
                         animate={inView ? "visible" : "hidden"}
                         variants={textVariants}
@@ -25,7 +25,7 @@ const About = () => {
                             alt='ozzy'
                             className='w-80 h-80 rounded-full shadow-lg mb-8 md:mb-0'
                         />
-                        <div className='text-center md:text-left md:max-w-md lg:max-w-lg'>
+                        <div className='text-center md:text-left md:max-w-md lg:max-w-lg ml-8'>
                             <h1 className='text-5xl font-bold text-[#333] mb-3'>
                                 About Me
                             </h1>

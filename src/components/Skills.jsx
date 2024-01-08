@@ -10,6 +10,7 @@ import css from '../assets/css.png'
 import Docker from '../assets/docker.png'
 import Flask from '../assets/Flask.png'
 import Spacy from '../assets/spacy.png'
+import Nodejs from '../assets/nodejs.png'
 import aStudio from '../assets/androidStudio.png'
 import React from 'react';
 import { motion } from 'framer-motion';
@@ -52,6 +53,7 @@ const Skills = () => {
   { title: 'HTML', image: Html },
   { title: 'JavaScript', image: Javascript },
   { title: 'React', image: ReactImg },
+  {title:'Node', image:Nodejs},
   { title: 'Java', image: Java },
   { title: 'C', image: C },
   { title: 'C++', image: cpp },
